@@ -1,0 +1,21 @@
+[submodule "pack/plugins/start/vim-dracula"]
+	path = pack/plugins/start/vim-dracula
+	url = https://github.com/dracula/vim.git
+[submodule "pack/plugins/start/nerdtree"]
+	path = pack/plugins/start/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "pack/plugins/start/lightline"]
+	path = pack/plugins/start/lightline
+	url = https://github.com/itchyny/lightline.vim.git
+[submodule "pack/plugins/start/gitbranch"]
+	path = pack/plugins/start/gitbranch
+	url = https://github.com/itchyny/vim-gitbranch.git
+[submodule "pack/plugins/start/ale"]
+	path = pack/plugins/start/ale
+	url = https://github.com/w0rp/ale.git
+[submodule "pack/plugins/start/lightline-ale"]
+	path = pack/plugins/start/lightline-ale
+	url = https://github.com/maximbaz/lightline-ale.git
+[submodule "pack/plugins/start/pug"]
+	path = pack/plugins/start/pug
+	url = https://github.com/digitaltoad/vim-pug.git
