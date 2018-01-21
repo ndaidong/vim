@@ -6,6 +6,23 @@ set cursorline
 set autoread
 set autowrite
 
+if has('mouse')
+  set mouse=a
+endif
+
+set nobackup
+set nowb
+set noswapfile
+set backupdir=~/tmp,/tmp
+set backupcopy=yes
+set backupskip=/tmp/*,$TMPDIR/*,$TMP/*,$TEMP/*
+set directory=/tmp
+
+set clipboard=unnamedplus
+set undolevels=1000
+
+set encoding=utf-8 nobomb
+
 syntax on
 set syntax=whitespace
 
@@ -17,23 +34,6 @@ set expandtab
 
 autocmd FileType python setlocal shiftwidth=4 tabstop=4 softtabstop=4
 autocmd FileType go setlocal noexpandtab shiftwidth=4 tabstop=4 softtabstop=4
-
-if has('mouse')
-  set mouse=a
-endif
-
-set clipboard=unnamedplus
-set undolevels=1000
-
-set encoding=utf-8 nobomb
-
-set nobackup
-set nowb
-set noswapfile
-set backupdir=~/tmp,/tmp
-set backupcopy=yes
-set backupskip=/tmp/*,$TMPDIR/*,$TMP/*,$TEMP/*
-set directory=/tmp
 
 let NERDTreeShowHidden=1
 let NERDTreeIgnore=['\.DS_Store', '\~$', '\.swp', '\.git', 'node_modules', 'venv']
