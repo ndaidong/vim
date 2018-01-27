@@ -10,7 +10,7 @@ sudo apt install vim
 # or Fedora
 sudo dnf install vim
 
-# then clone it with all submodules
+# then clone this repo with all its submodules
 git clone --recursive git@github.com:ndaidong/vim.git ~/.vim
 
 # or HTTPS:
