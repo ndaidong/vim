@@ -4,19 +4,34 @@ My vim configuration &amp; plugins
 
 ## Usage
 
+Install VIM:
+
 ```
-# Install vim on Ubuntu
+# Ubuntu
 sudo apt install vim
-# or Fedora
+
+# Fedora
 sudo dnf install vim
+```
 
-# then clone this repo with all its submodules
-git clone --recursive git@github.com:ndaidong/vim.git ~/.vim
+Basic package may lack some features such as clipboard... If so, install `vim-gnome`, `vim-athena`... or your favorite variant instead.
 
-# or HTTPS:
+Then clone this repo with all its submodules:
+
+```
+# HTTPS
 git clone --recursive https://github.com/ndaidong/vim.git ~/.vim
 
-# see how it works
+# for your fork
+git clone --recursive git@github.com:YOUR_GITHUB_USERNAME/vim.git ~/.vim
+
+# for me
+git clone --recursive git@github.com:ndaidong/vim.git ~/.vim
+```
+
+That's it. Everything was done. Let's see how it works:
+
+```
 vim ~/.vim 
 ```
 
