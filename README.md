@@ -59,6 +59,11 @@ vim ~/.vim
 - [A better NerdTree setup](https://medium.com/@victormours/a-better-nerdtree-setup-3d3921abc0b9)
 
 
+## Screenshots
+
+![VIM in my desktop - JavaScript](https://i.imgur.com/SzBOYhW.jpg)
+![VIM in my desktop - Pug](https://i.imgur.com/Z8ipVNh.jpg)
+
 ## License
 
 The MIT License (MIT)
