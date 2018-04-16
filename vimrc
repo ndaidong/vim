@@ -21,6 +21,10 @@ set directory=/tmp
 set clipboard=unnamedplus
 set undolevels=1000
 
+nnoremap <F3> :set invpaste paste?<CR>
+set pastetoggle=<F3>
+set showmode
+
 set encoding=utf-8 nobomb
 
 syntax on
