@@ -46,6 +46,26 @@ vim ~/.vim
 - [vim-pug](https://github.com/digitaltoad/vim-pug): to highlight Pug syntax
 
 
+## Add plugin
+
+For example "vim-airline" could be added as below:
+
+```
+cd ~/.vim
+git submodule add https://github.com/vim-airline/vim-airline.git pack/plugins/start/vim-airline
+git commit
+```
+
+### And then how to remove it?
+
+```
+cd ~/.vim
+git rm -f pack/plugins/start/vim-airline
+rm -rf pack/plugins/start/vim-airline
+rm -rf .git/modules/pack/plugins/start/vim-airline
+git commit -m "Remove vim-airline"
+git push
+```
 
 ## Refs
 
