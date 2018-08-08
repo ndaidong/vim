@@ -95,9 +95,10 @@ let g:ale_linters = {
 \}
 
 let mapleader=" "
+map <leader>r :source ~/.vim/vimrc<CR>
+
 map <leader>s :NERDTree<CR>
 map <leader>f :NERDTreeFind<CR>
-map <leader>r :source ~/.vim/vimrc<CR>
 nmap <leader>t :NERDTreeToggle<CR>
 
 nnoremap <F5> :checktime<CR>
