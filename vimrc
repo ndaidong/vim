@@ -48,6 +48,8 @@ let NERDTreeAutoDeleteBuffer = 1
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
+autocmd BufEnter * if &modifiable | NERDTreeFind | wincmd p | endif
+
 let g:ale_sign_column_always = 1
 
 let g:lightline = {}
