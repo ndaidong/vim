@@ -1,5 +1,5 @@
 # vim
-My vim configuration &amp; plugins
+My vim configuration &amp; plugins using git module.
 
 
 ## Usage
