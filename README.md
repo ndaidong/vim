@@ -79,10 +79,18 @@ git push
 - [A better NerdTree setup](https://medium.com/@victormours/a-better-nerdtree-setup-3d3921abc0b9)
 
 
+## Learn more?
+
+- [Vim Cheat Sheet by rtorr](https://vim.rtorr.com/)
+- [Vim Cheat Sheet by DevHints](https://devhints.io/vim)
+- [Vim Documents](http://vimdoc.sourceforge.net/htmldoc/)
+
+
 ## Screenshots
 
 ![VIM in my desktop - JavaScript](https://i.imgur.com/SzBOYhW.jpg)
 ![VIM in my desktop - Pug](https://i.imgur.com/Z8ipVNh.jpg)
+
 
 ## License
 
