@@ -72,6 +72,27 @@ let g:lightline = {
       \ },
       \ }
 
+function! s:save_buffer() abort
+  if empty(&buftype) && !empty(bufname(''))
+    let l:savemarks = {
+          \ "'[": getpos("'["),
+          \ "']": getpos("']")
+          \ }
+
+    silent! update
+
+    for [l:key, l:value] in items(l:savemarks)
+      call setpos(l:key, l:value)
+    endfor
+  endif
+endfunction
+
+augroup save_buffer
+  autocmd!
+  autocmd InsertLeave,TextChanged * nested call s:save_buffer()
+  autocmd FocusGained,BufEnter,CursorHold * silent! checktime
+augroup end
+
 function! LinterStatus() abort
     let l:counts = ale#statusline#Count(bufnr(''))
 
