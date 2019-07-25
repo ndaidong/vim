@@ -45,10 +45,21 @@ let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 let NERDTreeAutoDeleteBuffer = 1
 
+let g:nerdtree_tabs_open_on_gui_startup = 1
+let g:nerdtree_tabs_open_on_console_startup = 0
+let g:nerdtree_tabs_no_startup_for_diff = 1
+let g:nerdtree_tabs_smart_startup_focus = 1
+let g:nerdtree_tabs_open_on_new_tab = 1
+let g:nerdtree_tabs_meaningful_tab_names = 1
+let g:nerdtree_tabs_autoclose = 1
+let g:nerdtree_tabs_synchronize_view = 1
+let g:nerdtree_tabs_synchronize_focus = 1
+let g:nerdtree_tabs_focus_on_files = 0
+let g:nerdtree_tabs_startup_cd = 1
+let g:nerdtree_tabs_autofind = 0
+
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-
-autocmd BufEnter * if &modifiable | NERDTreeFind | wincmd p | endif
 
 let g:ale_sign_column_always = 1
 
@@ -121,5 +132,6 @@ map <leader>r :source ~/.vim/vimrc<CR>
 map <leader>s :NERDTree<CR>
 map <leader>f :NERDTreeFind<CR>
 nmap <leader>t :NERDTreeToggle<CR>
+map <leader>n <plug>NERDTreeTabsToggle<CR>
 
 nnoremap <F5> :checktime<CR>

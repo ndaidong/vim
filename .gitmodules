@@ -19,3 +19,6 @@
 [submodule "pack/plugins/start/pug"]
 	path = pack/plugins/start/pug
 	url = https://github.com/digitaltoad/vim-pug.git
+[submodule "pack/plugins/start/nerdtree-tabs"]
+	path = pack/plugins/start/nerdtree-tabs
+	url = https://github.com/jistr/vim-nerdtree-tabs.git
