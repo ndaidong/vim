@@ -39,6 +39,7 @@ vim ~/.vim
 
 - [Dracula for Vim](https://github.com/dracula/vim): to display VIM in dark theme
 - [NERDTree](https://github.com/scrooloose/nerdtree): to get file explorer with sidebar and tabs
+- [NERDTree Tabs](https://github.com/jistr/vim-nerdtree-tabs): to keep sidebar consistent, independent from tabs
 - [lightline.vim](https://github.com/itchyny/lightline.vim): to make statusline
 - [ALE](https://github.com/w0rp/ale): to enable live linting
 - [vim-gitbranch](https://github.com/itchyny/vim-gitbranch): to get branch name
