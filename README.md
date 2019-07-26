@@ -14,6 +14,14 @@ sudo apt install vim
 sudo dnf install vim
 ```
 
+For old Ubuntu releases, there may lack vim 8.x, please install from ppa:
+
+```
+sudo add-apt-repository ppa:jonathonf/vim
+sudo apt-get update
+sudo apt-get install vim
+```
+
 Basic package may lack some features such as clipboard... If so, install `vim-gnome`, `vim-athena`... or your favorite variant instead.
 
 Then clone this repo with all its submodules:
@@ -34,6 +42,14 @@ That's it. Everything was done. Let's see how it works:
 ```
 vim ~/.vim 
 ```
+
+To update the latest source from this repo and its submodules, the following command will help:
+
+```
+git pull --recurse-submodules
+```
+
+
 
 ## Plugins
 
