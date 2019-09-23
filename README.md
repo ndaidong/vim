@@ -24,7 +24,7 @@ sudo apt-get install vim
 
 Basic package may lack some features such as clipboard... If so, install `vim-gnome`, `vim-athena`... or your favorite variant instead.
 
-You may need `flake8` to run linting. Install it gloabaly or with virtual environment depend on your project.
+You may need `flake8` to run linting. Install it globally or within virtual environment depending on your project.
 
 ```bash
 sudo pip3 install flake8
