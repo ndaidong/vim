@@ -133,7 +133,7 @@ endfunction
 
 let g:ale_linters = {
 \   'javascript': ['eslint'],
-\   'python': ['pycodestyle'],
+\   'python': ['flake8'],
 \}
 
 let mapleader=" "
