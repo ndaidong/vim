@@ -1,52 +1,30 @@
-# vim
-My vim configuration &amp; plugins using git module.
+# nvim
+My nvim configuration & plugins using git module.
 
 
 ## Usage
 
-Install VIM:
+After [installing nvim](https://github.com/neovim/neovim/wiki/Installing-Neovim), just clone this repo with all its submodules:
 
-```
-# Ubuntu
-sudo apt install vim
-
-# Fedora
-sudo dnf install vim
-```
-
-For old Ubuntu releases, there may lack vim 8.x, please install from ppa:
-
-```
-sudo add-apt-repository ppa:jonathonf/vim
-sudo apt-get update
-sudo apt-get install vim
-```
-
-Basic package may lack some features such as clipboard... If so, install `vim-gnome`, `vim-athena`... or your favorite variant instead.
-
-You may need `flake8` to run linting. Install it globally or within virtual environment depending on your project.
-
-```bash
-sudo pip3 install flake8
-```
-
-Then clone this repo with all its submodules:
 
 ```
 # HTTPS
-git clone --recursive https://github.com/ndaidong/vim.git ~/.vim
+git clone --recursive https://github.com/ndaidong/vim.git ~/.config/nvim
 
 # for your fork
-git clone --recursive git@github.com:YOUR_GITHUB_USERNAME/vim.git ~/.vim
+git clone --recursive git@github.com:YOUR_GITHUB_USERNAME/vim.git ~/.config/nvim
 
 # for me
-git clone --recursive git@github.com:ndaidong/vim.git ~/.vim
+git clone --recursive git@github.com:ndaidong/vim.git ~/.config/nvim
 ```
 
 That's it. Everything was done. Let's see how it works:
 
 ```
-vim ~/.vim 
+vim ~/.config/nvim
+
+# or
+nvim ~/.config/nvim
 ```
 
 To update the latest source from this repo and its submodules, the following command will help:
@@ -55,6 +33,12 @@ To update the latest source from this repo and its submodules, the following com
 git pull --recurse-submodules
 ```
 
+
+For python developers, you may need `flake8` to run linter. Install it globally or within virtual environment depending on your project.
+
+```bash
+sudo pip3 install flake8
+```
 
 
 ## Plugins
@@ -75,7 +59,7 @@ git pull --recurse-submodules
 For example "vim-airline" could be added as below:
 
 ```
-cd ~/.vim
+cd ~/.config/nvim
 git submodule add https://github.com/vim-airline/vim-airline.git pack/plugins/start/vim-airline
 git commit
 ```
@@ -83,7 +67,7 @@ git commit
 ### And then how to remove it?
 
 ```
-cd ~/.vim
+cd ~/.config/nvim
 git rm -f pack/plugins/start/vim-airline
 rm -rf pack/plugins/start/vim-airline
 rm -rf .git/modules/pack/plugins/start/vim-airline
