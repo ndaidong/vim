@@ -96,8 +96,8 @@ git push
 
 ## Screenshots
 
-![VIM in my desktop - JavaScript](https://i.imgur.com/fAQKLyp.jpg)
-![VIM in my desktop - Pug](https://i.imgur.com/Kg0SFgA.jpg)
+![VIM in my desktop - JavaScript](https://i.imgur.com/D1dRDTz.png)
+![VIM in my desktop - Python](https://i.imgur.com/JDLhgU0.png)
 
 
 ## License
