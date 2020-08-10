@@ -47,9 +47,10 @@ sudo pip3 install flake8
 - [NERDTree](https://github.com/scrooloose/nerdtree): to get file explorer with sidebar and tabs
 - [NERDTree Tabs](https://github.com/jistr/vim-nerdtree-tabs): to keep sidebar consistent, independent from tabs
 - [indentLine](https://github.com/Yggdroot/indentLine): to display the indention levels
+- [nerdcommenter](https://github.com/preservim/nerdcommenter): to comment line or block of selected code
 - [lightline.vim](https://github.com/itchyny/lightline.vim): to make statusline
-- [ALE](https://github.com/w0rp/ale): to enable live linting
 - [vim-gitbranch](https://github.com/itchyny/vim-gitbranch): to get branch name
+- [ALE](https://github.com/w0rp/ale): to enable live linting
 - [lightline-ale](https://github.com/maximbaz/lightline-ale): to bring messages from ALE to statusline
 - [vim-pug](https://github.com/digitaltoad/vim-pug): to highlight Pug syntax
 - [vim-go](https://github.com/fatih/vim-go): to  add Golang support
