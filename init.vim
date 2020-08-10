@@ -136,8 +136,16 @@ let g:ale_linters = {
 \   'python': ['flake8'],
 \}
 
+let g:NERDSpaceDelims = 1
+let g:NERDCompactSexyComs = 1
+
+let g:NERDDefaultAlign = 'left'
+let g:NERDCustomDelimiters = { 'c': { 'left': '/**','right': '*/' } }
+let g:NERDCommentEmptyLines = 1
+let g:NERDTrimTrailingWhitespace = 1
+let g:NERDToggleCheckAllLines = 1
+
 let mapleader=" "
-map <leader>r :source ~/.vim/vimrc<CR>
 
 map <leader>s :NERDTree<CR>
 map <leader>f :NERDTreeFind<CR>
