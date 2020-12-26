@@ -52,8 +52,6 @@ sudo pip3 install flake8
 - [vim-gitbranch](https://github.com/itchyny/vim-gitbranch): to get branch name
 - [ALE](https://github.com/w0rp/ale): to enable live linting
 - [lightline-ale](https://github.com/maximbaz/lightline-ale): to bring messages from ALE to statusline
-- [vim-pug](https://github.com/digitaltoad/vim-pug): to highlight Pug syntax
-- [vim-go](https://github.com/fatih/vim-go): to  add Golang support
 
 ## Add plugin
 
