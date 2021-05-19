@@ -31,3 +31,6 @@
 [submodule "pack/plugins/start/nerdcommenter"]
 	path = pack/plugins/start/nerdcommenter
 	url = https://github.com/preservim/nerdcommenter.git
+[submodule "pack/plugins/start/v-vim"]
+	path = pack/plugins/start/v-vim
+	url = https://github.com/ollykel/v-vim.git
