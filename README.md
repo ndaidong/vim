@@ -52,6 +52,7 @@ sudo pip3 install flake8
 - [vim-gitbranch](https://github.com/itchyny/vim-gitbranch): to get branch name
 - [ALE](https://github.com/w0rp/ale): to enable live linting
 - [lightline-ale](https://github.com/maximbaz/lightline-ale): to bring messages from ALE to statusline
+- [v-vim](https://github.com/ollykel/v-vim): Support for V syntax highlighting in Vim 
 
 ## Add plugin
 
