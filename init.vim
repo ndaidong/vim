@@ -132,9 +132,11 @@ function! LightLineFilename()
 endfunction
 
 let g:ale_linters = {
-\   'javascript': ['eslint'],
+\   'javascript': ['standard'],
 \   'python': ['flake8'],
 \}
+
+let g:ale_fixers = {'javascript': ['standard']}
 
 let g:NERDSpaceDelims = 1
 let g:NERDCompactSexyComs = 1
