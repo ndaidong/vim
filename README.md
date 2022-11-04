@@ -1,45 +1,52 @@
-# nvim
-My nvim configuration & plugins using git module.
+# vim
+My vim configuration & plugins using git module.
 
 
 ## Usage
 
-After [installing nvim](https://github.com/neovim/neovim/wiki/Installing-Neovim), just clone this repo with all its submodules:
+Assume that you have had `vim` and `git` already.
+
+Next step is clone this repo with all its submodules:
 
 
-```
+```bash
 # HTTPS
-git clone --recursive https://github.com/ndaidong/vim.git ~/.config/nvim
+git clone --recursive https://github.com/ndaidong/vim.git ~/.vim
 
 # for your fork
-git clone --recursive git@github.com:YOUR_GITHUB_USERNAME/vim.git ~/.config/nvim
+git clone --recursive git@github.com:YOUR_GITHUB_USERNAME/vim.git ~/.vim
 
 # for me
-git clone --recursive git@github.com:ndaidong/vim.git ~/.config/nvim
+git clone --recursive git@github.com:ndaidong/vim.git ~/.vim
 ```
 
-That's it. Everything was done. Let's see how it works:
+That's it. Everything was done.
 
-```
-vim ~/.config/nvim
+### Up to date
 
-# or
-nvim ~/.config/nvim
-```
+To update these plugins, use the following command:
 
-To update the latest source from this repo and its submodules, the following command will help:
-
-```
+```bash
 git pull --recurse-submodules
 ```
 
+### Linters
 
-For python developers, you may need `flake8` to run linter. Install it globally or within virtual environment depending on your project.
+Python developers need to install `flake8` globally or within isolated environment.
+
+Recommend to use [pipx](https://github.com/pypa/pipx):
 
 ```bash
-sudo pip3 install flake8
+pipx install flake8
 ```
 
+JavaScript/TypeScript developers can use `eslint` from global or project scope.
+
+Recommend to use [pnpm](https://github.com/pnpm/pnpm):
+
+```bash
+pnpm i -g eslint
+```
 
 ## Plugins
 
@@ -56,22 +63,24 @@ sudo pip3 install flake8
 
 ## Add plugin
 
-For example "vim-airline" could be added as below:
+For example "vim-wanted" can be added as below:
 
-```
+```bash
 cd ~/.config/nvim
-git submodule add https://github.com/vim-airline/vim-airline.git pack/plugins/start/vim-airline
+git submodule add https://github.com/vim-wanted/vim-wanted.git pack/plugins/start/vim-wanted
 git commit
 ```
 
-### And then how to remove it?
+### Remove plugin
 
-```
+Here we remove `vim-unwanted`:
+
+```bash
 cd ~/.config/nvim
-git rm -f pack/plugins/start/vim-airline
-rm -rf pack/plugins/start/vim-airline
-rm -rf .git/modules/pack/plugins/start/vim-airline
-git commit -m "Remove vim-airline"
+git rm -f pack/plugins/start/vim-unwanted
+rm -rf pack/plugins/start/vim-unwanted
+rm -rf .git/modules/pack/plugins/start/vim-unwanted
+git commit -m "Remove vim-unwanted"
 git push
 ```
 
@@ -96,9 +105,9 @@ git push
 
 ## Screenshots
 
-![VIM in my desktop - JavaScript](https://i.imgur.com/D1dRDTz.png)
-![VIM in my desktop - Python](https://i.imgur.com/JDLhgU0.png)
-
+![VIM in my desktop - JavaScript](https://i.imgur.com/fmTTK59.png)
+![VIM in my desktop - Python](https://i.imgur.com/Qh22its.png)
+![VIM in my desktop - Golang](https://i.imgur.com/RHRqXAP.png)
 
 ## License
 
