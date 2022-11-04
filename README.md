@@ -68,7 +68,7 @@ pnpm i -g eslint
 - [lightline-ale](https://github.com/maximbaz/lightline-ale): to bring messages from ALE to statusline
 - [v-vim](https://github.com/ollykel/v-vim): Support for V syntax highlighting in Vim 
 
-## Add plugin
+### Add plugin
 
 For example "vim-wanted" can be added as below:
 
