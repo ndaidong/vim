@@ -103,7 +103,7 @@ git push
 - [A better NerdTree setup](https://medium.com/@victormours/a-better-nerdtree-setup-3d3921abc0b9)
 
 
-## Learn more?
+### Learn more?
 
 - [Vim Cheat Sheet by rtorr](https://vim.rtorr.com/)
 - [Vim Cheat Sheet by DevHints](https://devhints.io/vim)
@@ -112,9 +112,9 @@ git push
 
 ## Screenshots
 
-![VIM in my desktop - JavaScript](https://i.imgur.com/fmTTK59.png)
-![VIM in my desktop - Python](https://i.imgur.com/Qh22its.png)
-![VIM in my desktop - Golang](https://i.imgur.com/RHRqXAP.png)
+![VIM in my desktop - JavaScript](https://i.imgur.com/3Re92Xi.png)
+![VIM in my desktop - Python](https://i.imgur.com/0orHTs3.png)
+![VIM in my desktop - Golang](https://i.imgur.com/e7eQM4s.png)
 
 ## License
 
