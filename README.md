@@ -73,7 +73,7 @@ pnpm i -g eslint
 For example `vim-wanted` can be added as below:
 
 ```bash
-cd ~/.config/nvim
+cd ~/.vim
 git submodule add https://github.com/vim-wanted/vim-wanted.git pack/plugins/start/vim-wanted
 git commit
 ```
@@ -83,7 +83,7 @@ git commit
 Here we remove `vim-unwanted`:
 
 ```bash
-cd ~/.config/nvim
+cd ~/.vim
 git rm -f pack/plugins/start/vim-unwanted
 rm -rf pack/plugins/start/vim-unwanted
 rm -rf .git/modules/pack/plugins/start/vim-unwanted
