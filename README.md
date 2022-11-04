@@ -70,7 +70,7 @@ pnpm i -g eslint
 
 ### Add plugin
 
-For example "vim-wanted" can be added as below:
+For example `vim-wanted` can be added as below:
 
 ```bash
 cd ~/.config/nvim
