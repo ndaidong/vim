@@ -24,9 +24,16 @@ That's it. Everything was done.
 
 ### Up to date
 
-To update these plugins, use the following command:
+To update these plugins, use the following commands:
 
 ```bash
+# Git 1.8.2 and above
+git submodule update --recursive --remote
+
+# Git 1.7.3 and above
+git submodule update --recursive
+
+# Alternatively
 git pull --recurse-submodules
 ```
 
