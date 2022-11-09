@@ -57,7 +57,6 @@ pnpm i -g eslint
 
 ## Plugins
 
-- [Dracula for Vim](https://github.com/dracula/vim): to display VIM in dark theme
 - [NERDTree](https://github.com/scrooloose/nerdtree): to get file explorer with sidebar and tabs
 - [NERDTree Tabs](https://github.com/jistr/vim-nerdtree-tabs): to keep sidebar consistent, independent from tabs
 - [indentLine](https://github.com/Yggdroot/indentLine): to display the indention levels
@@ -85,7 +84,6 @@ Here we remove `vim-unwanted`:
 ```bash
 cd ~/.vim
 git rm -f pack/plugins/start/vim-unwanted
-rm -rf pack/plugins/start/vim-unwanted
 rm -rf .git/modules/pack/plugins/start/vim-unwanted
 git commit -m "Remove vim-unwanted"
 git push
