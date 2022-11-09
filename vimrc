@@ -1,5 +1,3 @@
-"color dracula
-
 set nu
 "set cursorline
 
@@ -76,7 +74,6 @@ let g:ale_sign_column_always = 1
 let g:lightline = {}
 
 let g:lightline = {
-      \ 'colorscheme': 'Dracula',
       \ 'active': {
       \   'left': [
       \               [ 'mode', 'paste' ],
