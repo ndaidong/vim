@@ -1,4 +1,4 @@
-color dracula
+"color dracula
 
 set nu
 "set cursorline
